@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(
+        135deg,
+        #ffe5ec,
+        #f7e6ff
+    );
+    font-family: Arial, sans-serif;
+}
+
+.custom-navbar{
+    background:#ff66b2;
+}
+
+.main-title{
+    color:#ff2f92;
+    font-weight:bold;
+}
+
+.hero-section{
+    padding:60px 20px;
+}
+
+.btn-pink{
+    background:#ff4da6;
+    color:white;
+    border:none;
+    padding:10px 25px;
+    border-radius:30px;
+}
+
+.btn-pink:hover{
+    background:#ff1f8c;
+    color:white;
+}
+
+.info-card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    height:100%;
+}
+
+.content-card{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.stat-card{
+    background:white;
+    border-radius:20px;
+    text-align:center;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.stat-card h1{
+    color:#ff4da6;
+    font-weight:bold;
+}

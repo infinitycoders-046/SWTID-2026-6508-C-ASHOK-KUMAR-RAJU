@@ -1,0 +1,102 @@
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="/">
+            🍔 Food Trends
+        </a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/dashboard01">Dashboard 1</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/dashboard02">Dashboard 2</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/story">Story</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+<div class="hero-section text-center">
+
+    <h1 class="main-title">
+        🍕 Food Ordering Behaviour & Consumer Trends
+    </h1>
+
+    <p class="lead mt-3">
+        A Structured Analysis of Consumer Choices,
+        Food Preferences, Spending Patterns,
+        and Ordering Habits.
+    </p>
+
+    <a href="/dashboard01" class="btn btn-pink mt-3">
+        View Analytics
+    </a>
+
+</div>
+
+<div class="row mt-5">
+
+    <div class="col-md-4 mb-3">
+        <div class="info-card">
+            <h4>🍔 Food Preferences</h4>
+            <p>
+                Explore popular cuisines and food choices.
+            </p>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="info-card">
+            <h4>📱 Ordering Habits</h4>
+            <p>
+                Analyze consumer ordering behavior.
+            </p>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="info-card">
+            <h4>💸 Spending Trends</h4>
+            <p>
+                Understand spending and budgeting patterns.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
